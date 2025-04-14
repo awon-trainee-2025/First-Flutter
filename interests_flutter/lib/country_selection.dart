@@ -86,9 +86,7 @@ class _CountryScreenState extends State<CountryScreen> {
             padding: const EdgeInsets.all(16.0),
             child: TextField(
               controller: searchController,
-              style: TextStyle(
-                color: Colors.white,
-              ), // Set input text color to white
+              style: TextStyle(color: Colors.white),
               decoration: InputDecoration(
                 hintText: 'Find Your country',
                 hintStyle: TextStyle(color: Colors.white70),

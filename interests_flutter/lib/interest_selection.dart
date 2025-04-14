@@ -30,7 +30,7 @@ class _InterestsScreenState extends State<InterestsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF303030), // Dark grey background
+      backgroundColor: Color(0xFF303030),
       body: SafeArea(
         child: Column(
           children: [
@@ -60,8 +60,8 @@ class _InterestsScreenState extends State<InterestsScreen> {
                         child: Card(
                           color:
                               isSelected
-                                  ? Colors.orange[400] // Slightly darker orange
-                                  : Colors.grey[800], // Grey when not selected
+                                  ? Colors.orange[400]
+                                  : Colors.grey[800],
                           child: Center(
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -71,10 +71,8 @@ class _InterestsScreenState extends State<InterestsScreen> {
                                   size: 40,
                                   color:
                                       isSelected
-                                          ? Colors
-                                              .grey[800] // Match background color
-                                          : Colors
-                                              .white, // White when not selected
+                                          ? Colors.grey[800]
+                                          : Colors.white,
                                 ),
                                 SizedBox(height: 10),
                                 Text(

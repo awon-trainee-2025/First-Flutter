@@ -11,17 +11,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Interests & Countries',
       theme: ThemeData(
-        primaryColor: Colors.orange, // Orange as primary color
-        scaffoldBackgroundColor: Color(0xFF303030), // Dark grey background
+        primaryColor: Colors.orange,
+        scaffoldBackgroundColor: Color(0xFF303030),
         textTheme: TextTheme(
-          bodyMedium: TextStyle(color: Colors.white), // White text color
-          labelLarge: TextStyle(color: Colors.white), // White text color
+          bodyMedium: TextStyle(color: Colors.white),
+          labelLarge: TextStyle(color: Colors.white),
         ),
         appBarTheme: AppBarTheme(
-          backgroundColor: Color(0xFF303030), // Dark grey background
-          titleTextStyle: TextStyle(
-            color: Colors.white,
-          ), // White text in the AppBar
+          backgroundColor: Color(0xFF303030),
+          titleTextStyle: TextStyle(color: Colors.white),
         ),
       ),
       home: InterestsScreen(),
