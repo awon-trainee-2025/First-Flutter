@@ -14,7 +14,7 @@ class LoginScreen extends StatelessWidget {
             Navigator.pop(context);
           },
         ),
-        title: const Text('تسجيل الدخول'),
+        title: const Text('.تسجيل الدخول'),
         backgroundColor: const Color(0xFF4A00E0),
       ),
       body: SingleChildScrollView(
